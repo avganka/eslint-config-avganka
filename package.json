@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for my React/Typescript projects",
+  "scripts": {
+    "test": "eslint test/",
+    "deploy": "npm publish"
+  },
+  "keywords": ["eslint","linter", "config"],
+  "author": "avganka <karambastreg@gmail.com>",
+  "license": "ISC",
+   "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "dependencies": {
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.29.4"
+  }
+}
