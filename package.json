@@ -1,13 +1,21 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-avganka",
   "version": "1.0.0",
   "description": "ESLint shareable config for my React/Typescript projects",
   "scripts": {
     "test": "eslint test/",
     "deploy": "npm publish"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avganka/eslint-config-avganka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avganka/eslint-config-avganka/issues"
+  },
+  "homepage": "https://github.com/avganka/eslint-config-avganka#readme",
   "keywords": ["eslint","linter", "config"],
-  "author": "avganka <karambastreg@gmail.com>",
+  "author": "avganka <karambasterg@gmail.com>",
   "license": "ISC",
    "peerDependencies": {
     "eslint": ">=8"
@@ -15,8 +23,8 @@
   "devDependencies": {
     "eslint": "^8.15.0"
   },
-  "dependencies": {
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.29.4"
+  "dependencies": {    
+    "eslint-plugin-react": "^7.29.4",
+    "@typescript-eslint/eslint-plugin":"^5.23.0"
   }
 }
