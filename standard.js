@@ -52,5 +52,6 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
     'prefer-template': 'error',
+    "no-undef": "off",
   },
 };
