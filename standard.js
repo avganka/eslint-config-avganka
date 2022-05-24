@@ -4,7 +4,7 @@ module.exports = {
     // Possible Errors
     // https://eslint.org/docs/rules/#possible-errors
     // ---------------------------------------------
-    'no-console': 'error',
+    'no-console': 'warn',
     'no-template-curly-in-string': 'error',
     // Best Practices
     // https://eslint.org/docs/rules/#best-practices
